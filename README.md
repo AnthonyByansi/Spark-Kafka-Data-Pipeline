@@ -22,3 +22,4 @@ graph LR
     A[Kafka Producer] -- Produces data --> B((Kafka))
     B -- Consumes data --> C[Spark Streaming]
     C -- Processes data --> D((Output Destination))
+</details>
