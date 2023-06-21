@@ -41,3 +41,18 @@ To run this data pipeline locally, follow these steps:
 
 * Apache Kafka: Install and set up Kafka.
 * Apache Spark: Install and set up Spark.
+
+2. Clone the repository: `git clone https://github.com/AnthonyByansi/Spark-Kafka-Data-Pipeline.git
+cd Spark-Kafka-Data-Pipeline
+`
+
+3. Start the Kafka Producer:
+
+* Update the Kafka producer code (`kafka/Producer.scala`) with your desired data generation logic.
+* Follow the instructions in the `kafka/README.md` file to run the Kafka producer.
+
+  
+4. Run the Spark Streaming application:
+
+* Update the Spark Streaming application code (`spark/StreamingApp.scala`) as per your data processing requirements.
+* Follow the instructions in the `spark/README.md` file to run the Spark Streaming application.
