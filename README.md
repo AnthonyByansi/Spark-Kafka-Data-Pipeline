@@ -56,3 +56,11 @@ cd Spark-Kafka-Data-Pipeline
 
 * Update the Spark Streaming application code (`spark/StreamingApp.scala`) as per your data processing requirements.
 * Follow the instructions in the `spark/README.md` file to run the Spark Streaming application.
+
+5. Observe the data processing:
+
+Monitor the output destination (e.g., file system, database, or another Kafka topic) to see the processed data.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have ideas for enhancements, feel free to open an issue or submit a pull request. Please follow the project's code of conduct.
