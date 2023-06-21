@@ -23,3 +23,11 @@ graph LR
     B -- Consumes data --> C[Spark Streaming]
     C -- Processes data --> D((Output Destination))
 </details>
+
+
+## Features
+* Ingests streaming data from Apache Kafka.
+* Real-time data processing using Apache Spark Streaming.
+* Flexible and scalable pipeline architecture.
+* Data processing operations like filtering, aggregation, and more.
+* Easily customizable for different use cases.
