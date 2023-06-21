@@ -22,6 +22,8 @@ graph LR
     A[Kafka Producer] -- Produces data --> B((Kafka))
     B -- Consumes data --> C[Spark Streaming]
     C -- Processes data --> D((Output Destination))
+```
+
 </details>
 
 
@@ -31,3 +33,11 @@ graph LR
 * Flexible and scalable pipeline architecture.
 * Data processing operations like filtering, aggregation, and more.
 * Easily customizable for different use cases.
+
+  ## Getting Started
+To run this data pipeline locally, follow these steps:
+
+1. Prerequisites:
+
+* Apache Kafka: Install and set up Kafka.
+* Apache Spark: Install and set up Spark.
