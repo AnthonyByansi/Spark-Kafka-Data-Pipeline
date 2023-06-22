@@ -25,3 +25,4 @@ To run the Kafka producer, follow these steps:
    scalac Producer.scala
    ```
 3. Run the Kafka producer using the following command: `scala Producer`
+The Kafka producer will start generating sample data and publishing it to the Kafka topic.
