@@ -30,3 +30,8 @@ The Kafka producer will start generating sample data and publishing it to the Ka
 ## Customizing Data Generation
 
 By default, the generateData method in the Producer.scala file generates a placeholder sample data. Modify this method to generate data based on your specific use case.
+
+## Additional Notes
+
+Adjust the sleep time in the Kafka producer loop to control the rate at which data is generated and published.
+Make sure that the Kafka topic specified in the Producer.scala file matches the topic you want to publish data to.
