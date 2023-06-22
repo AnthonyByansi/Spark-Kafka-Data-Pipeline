@@ -24,4 +24,4 @@ To run the Kafka producer, follow these steps:
    ```shell
    scalac Producer.scala
    ```
-3. Run the Kafka producer using the following command:
+3. Run the Kafka producer using the following command: `scala Producer`
