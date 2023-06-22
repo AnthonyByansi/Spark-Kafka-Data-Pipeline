@@ -26,3 +26,7 @@ To run the Kafka producer, follow these steps:
    ```
 3. Run the Kafka producer using the following command: `scala Producer`
 The Kafka producer will start generating sample data and publishing it to the Kafka topic.
+
+## Customizing Data Generation
+
+By default, the generateData method in the Producer.scala file generates a placeholder sample data. Modify this method to generate data based on your specific use case.
